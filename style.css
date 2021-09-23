@@ -1,0 +1,22 @@
+body {
+    margin: 50px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+H1 {
+    text-align: center;
+    font-size: 20pt;
+}
+
+H3 {
+    text-align: left;
+    font-size: 10pt;
+}
+
+
+ul li::before {
+    content: '*';
+    color:red;
+}
+
